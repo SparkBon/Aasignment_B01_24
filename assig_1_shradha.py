@@ -101,7 +101,7 @@ t_o = int(input("TO:  "))
 obj = data_base(fr_om, t_o) 
 # obj.create_db()
 mycursor.execute("use Assign_db") 
-obj.create_table()
+# obj.create_table()
 obj.insert_data()
 obj.select()
 
