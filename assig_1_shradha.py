@@ -74,7 +74,6 @@ class data_base:
                   #         Salary.append(i)  
 
 
-   
                for i in Salary:    
                   mycursor.execute(IP, i)
                   mydb.commit()
